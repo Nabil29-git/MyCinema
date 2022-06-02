@@ -33,7 +33,6 @@ public class CinemaApplication implements CommandLineRunner {
         cinemaInitService.initFilms();
         cinemaInitService.initProjections();
         cinemaInitService.initTickets();
-
         System.out.println("Initialisation completed !");
     }
 
